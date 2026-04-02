@@ -42,10 +42,14 @@ public class Main {
         System.out.println(differenceWeight);
         var worker = 8;
         var watchWorke = 640;
-        System.out.println("Всего рботников в компании - " + watchWorke / worker + " человек");
+        var allWorkers = watchWorke / worker;
+        System.out.println("Всего рботников в компании - " + allWorkers + " человек");
 
-var stakeWorke = watchWorke / worker;
-System.out.println("Если в компании работает " + (stakeWorke + 94) + " человек, то всего " + (stakeWorke + 94)*8 + " часов работы может быть поделено между сотрудниками");
+var moreWorke = allWorkers + 94;
+var moreTime = moreWorke * 8;
+
+
+System.out.println("Если в компании работает " + (moreWorke) + " человек, то всего " + moreTime + " часов работы может быть поделено между сотрудниками");
 
 
 
