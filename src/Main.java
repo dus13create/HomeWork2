@@ -9,13 +9,13 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
         dog = dog + 4;
-        cat = cat+4;
-        paper = paper +4;
+        cat = cat + 4;
+        paper = paper + 4;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
         dog = dog - 3.5;
-        cat = cat -1.6;
+        cat = cat - 1.6;
         paper = paper - 7639;
         System.out.println(dog);
         System.out.println(cat);
@@ -45,12 +45,11 @@ public class Main {
         var allWorkers = watchWorke / worker;
         System.out.println("Всего рботников в компании - " + allWorkers + " человек");
 
-var moreWorke = allWorkers + 94;
-var moreTime = moreWorke * 8;
+        var moreWorke = allWorkers + 94;
+        var moreTime = moreWorke * 8;
 
 
-System.out.println("Если в компании работает " + (moreWorke) + " человек, то всего " + moreTime + " часов работы может быть поделено между сотрудниками");
-
+        System.out.println("Если в компании работает " + (moreWorke) + " человек, то всего " + moreTime + " часов работы может быть поделено между сотрудниками");
 
 
     }
